@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <title>
+    {% if page.title == "Home" %}
+      Charts TOP
+    {% else if %}
+      {{ page.title }} &middot; Charts TOP
+    {% endif %}
+  </title>
+
+  <meta property="og:title" content="Beautiful Open"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="http://beautifulopen.com/"/>
+  <meta property="og:image" content="{{ site.url }}/img/beautiful-open.png"/>
+  <meta property="og:site_name" content="Charts Top"/>
+
+  <link rel="shortcut icon" href="/img/favicon.ico" />
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+</head>
+<body>
+  <div class="main-sidebar">
+    <h1><a href="/" class="site-name">Charts TOP</a></h1>
+    <p class="subtitle">Charts top</p>
+
+    <hr class="main-sidebar-hr">
+
+    {% include navigation.html %}
+
+    <hr class="main-sidebar-hr">
+  </div>
+  <div class="main-container">
+    {{ content }}
+  </div>
+  {% include analytics.html %}
+</body>
+</html>
