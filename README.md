@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Beautiful Open](http://beautifulopen.com)
 
 A list of handsome sites for open source software.
@@ -28,3 +29,7 @@ phantomjs snap.js http://somesite.com aSiteName
 ```
 
 The screenshot may not always look great, but it can work in a pinch!
+=======
+# top
+Charts top
+>>>>>>> 08d3131bfb8dc2b8ecdf0d31c3c66c68a677fb97
